@@ -82,7 +82,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: 2.7.17
+          python-version: 3.8
 
       - name: Install MSVC/MSBuild (Windows)
         if: runner.os == 'Windows'
